@@ -16,20 +16,20 @@ import java.time.LocalDate;
 public class Computer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "computer_id")
+    @Column(name = "komputer_id")
     private Long computerId;
 
     @Column(name = "nazwa")
-    private String computer_name;
+    private String computerName;
 
     @Column(name = "data_ksiegowania")
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate postingDate;
 
-    @Column(name = "koszt_USD")
+    @Column(name = "koszt_USD", precision = 7)
     private Double usdCost;
 
-    @Column(name = "koszt_PLN")
+    @Column(name = "koszt_PLN", precision = 7)
     private Double plnCost;
 
 
