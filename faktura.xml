@@ -1,0 +1,38 @@
+<ArrayList>
+  <item>
+    <nazwa>komputer 1</nazwa>
+    <data_ksiegowania>2022-01-03</data_ksiegowania>
+    <koszt_USD>345.0</koszt_USD>
+    <koszt_PLN>1386.69</koszt_PLN>
+  </item>
+  <item>
+    <nazwa>komputer 1</nazwa>
+    <data_ksiegowania>2022-01-10</data_ksiegowania>
+    <koszt_USD>345.0</koszt_USD>
+    <koszt_PLN>1370.79</koszt_PLN>
+  </item>
+  <item>
+    <nazwa>komputer 2</nazwa>
+    <data_ksiegowania>2022-01-03</data_ksiegowania>
+    <koszt_USD>543.0</koszt_USD>
+    <koszt_PLN>2182.53</koszt_PLN>
+  </item>
+  <item>
+    <nazwa>komputer 2</nazwa>
+    <data_ksiegowania>2022-01-10</data_ksiegowania>
+    <koszt_USD>543.0</koszt_USD>
+    <koszt_PLN>2157.5</koszt_PLN>
+  </item>
+  <item>
+    <nazwa>komputer 3</nazwa>
+    <data_ksiegowania>2022-01-03</data_ksiegowania>
+    <koszt_USD>346.0</koszt_USD>
+    <koszt_PLN>1390.71</koszt_PLN>
+  </item>
+  <item>
+    <nazwa>komputer 3</nazwa>
+    <data_ksiegowania>2022-01-10</data_ksiegowania>
+    <koszt_USD>346.0</koszt_USD>
+    <koszt_PLN>1374.76</koszt_PLN>
+  </item>
+</ArrayList>

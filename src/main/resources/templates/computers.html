@@ -16,6 +16,9 @@
         <form action="#" th:action="@{/computers/convert}" method="post">
             <input type="submit" value="USD do PLN" onclick="savedList()" class="btn btn-warning btn-sm mb-2"/>
         </form>
+        <form action="#" th:action="@{/computers/save-to-xml}" method="post">
+            <input type="submit" value="Zapisz do XML" onclick="savedXml()" class="btn btn-info btn-sm mb-2"/>
+        </form>
     </div>
 </div>
 
@@ -23,7 +26,7 @@
 
 <div>
     <form th:action="@{/computers/search}">
-        <div><input style="width: 300px;" type="text" name="keyword" th:value="${keyword}" class="form-control" placeholder="Wyszukaj..." required/></div>
+        <div><input style="width: 500px;" type="text" name="keyword" th:value="${keyword}" class="form-control" placeholder="Wyszukaj..." required/></div>
         <button type="submit" class="btn btn-primary">Szukaj</button>
         <button type="button" class="btn btn-outline-primary" onclick="clearFilter()">Wyczyść</button>
     </form>
@@ -77,6 +80,11 @@
 <script>
     function savedList() {
         alert("Przekonwertowano USD do PLN!");
+    };
+</script>
+<script>
+    function savedXml() {
+        alert("Zapisano do XML!");
     };
 </script>
 
